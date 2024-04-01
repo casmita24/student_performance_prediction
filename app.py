@@ -40,6 +40,11 @@ def predict_datapoint():
         results = predict_pipeline.predict(pred_df)
         print('Results: ', results)
         return render_template('home.html', results=results[0])
-    
+
+@application.route('/static/<path:path>')
+def send_static(path):
+    return send_from_directory('static', path)
+
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True)

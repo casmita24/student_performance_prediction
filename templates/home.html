@@ -1,7 +1,10 @@
 <html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/home.css">
+</head>
 <body>
     <div class="login">
-       <h1>Student Exam Performance Indicator</h1>
+       <!-- <h1>Student Exam Performance Indicator</h1> -->
    
        <form action="{{ url_for('predict_datapoint')}}" method="post">
         <h1>
@@ -100,9 +103,13 @@
             <input class="form-control" type="number" name="writing_score"
                 placeholder="Enter your Reading Score" min='0' max='100' />
         </div>
-        <div class="mb-3">
+        <!-- <div class="mb-3">
+            <input class="btn btn-primary" type="submit" value="Predict your Maths Score" required />
+        </div> -->
+        <div class="input-submit-container">
             <input class="btn btn-primary" type="submit" value="Predict your Maths Score" required />
         </div>
+        
     </form>
     <h2>
        THE  prediction is {{results}}
