@@ -1,1 +1,3 @@
 This project is a comprehensive end-to-end Machine Learning system designed to predict students' expected scores based on various features. It includes both frontend and backend components, with a Flask web application serving as the frontend interface for user interaction. Users can input data via the web interface, which is then processed by the backend using Pandas, NumPy, and Scikit-learn for data preprocessing and machine learning algorithms. The results are then displayed back to the user on the webpage. The project follows a modular structure, facilitating easy maintenance and scalability.
+![WhatsApp Image 2024-04-01 at 20 20 58_e15903b9](https://github.com/casmita24/student_performance_prediction/assets/117033932/64997068-0728-4eda-b375-cdae7a9fd954)
+
